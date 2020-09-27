@@ -14,3 +14,82 @@
  */
  @import "bootstrap-sprockets";
  @import "bootstrap";
+ body {
+    background-color: #ffffff;
+}
+
+.bg-dark {
+    background-color: #8DB7F6 !important;
+}
+
+.navfont {
+    color: #fff;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+
+/* line 15, /Users/tamara/.rvm/gems/ruby-2.5.0/gems/bootstrap-4.0.0/assets/stylesheets/bootstrap/mixins/_hover.scss */
+
+nav a:hover {
+    color: #E0A9DB;
+    text-decoration: underline;
+}
+
+.usernamefont {
+    font-size: 1.2rem;
+}
+
+a {
+    color: #B358AB;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+a:hover {
+    color: #E0A9DB;
+    text-decoration: underline;
+}
+
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #fff;
+    border-radius: 0.3rem;
+    border: 1px solid;
+    border-color: #e1e2e3;
+}
+
+button,
+input {
+    overflow: visible;
+    color: #fff;
+    background-color: #b997b7;
+    border-radius: 20px;
+    padding: 5px 15px 5px 15px;
+    width: auto;
+    border-style: none;
+}
+
+.lightgreen {
+    color: #17C3B2;
+}
+
+.purple {
+    color: #E0A9DB
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    padding-bottom: 15px;
+}
